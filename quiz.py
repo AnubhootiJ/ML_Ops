@@ -25,7 +25,7 @@ print("Flattened Resolution =", data.shape)
 #data4 = np.resize(digits.images, (1797, 4,4))
 #print(data4.shape)
 
-resolution = [4,6,8]
+resolution = [16, 32, 64]
 splits = [0.7,0.8,0.9]
 accuracy = []
 f1sc = []
@@ -71,12 +71,12 @@ for res in resolution:
             sp = "80:20"
         else:
             sp="90:10"
-        if res == 4:
-            re = "4*4"
-        elif res == 6:
-            re = "6*6"
+        if res == 16:
+            re = "16*16"
+        elif res == 32:
+            re = "32*32"
         else:
-            re = "8*8"
+            re = "64*64"
         print(re,"\t\t",sp,"\t",accuracy[i],"\t",f1sc[i])
         i+=1 
         
