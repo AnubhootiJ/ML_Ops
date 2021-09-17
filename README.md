@@ -1,12 +1,12 @@
 # ML_Ops
-Assignment-3
+Turned into Modules
 Submitted by: Anubhooti Jain (M20CS052)
 =========================================
 
-Code for Assignment-3 is added in plot.py file. 
+Code for Modularizing is added in module.py file and also helper functions are added in Utils folder. 
 
-The plot for different gammas is as follows -
+Observation - Best model is with Gamma Value = 0.001, split = (0.15, 0.15), and resolution = 8 with a validation accuracy of 0.993
 
-![my-result-1](/results/Gammas.png)
+The plot with Training and Validationa ccuracy for different split, resolution, and gammas is as follows -
 
-Observation - The best results I get is using gamma as 0.001. Also, as we increase the gamma the accuracy decreases. 
+![my-result-1](/results/mods_val_train.png)
