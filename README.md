@@ -9,7 +9,7 @@ In the assignment the modified changes are as follows -
 
 To see the results, please run "plot.py" file.
 
-I got the followig results for a train:test:val split of 70:15:15 -
+I got the followig results for a train:val:test split of (70:15:15)% -
 
 ```
 =============================
