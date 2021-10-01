@@ -1,8 +1,20 @@
 # ML_Ops
-Assignment 4
-Submitted by: Anubhooti Jain (M20CS052)
 =========================================
 
+Creating Docker Image -
+1. Create Docker file.
+2. Use build command. 
+
+'''
+docker build --rm -f docker/Dockerfile . -t mnist:latest
+'''
+3. Docker run for creating and running the container. 
+
+'''
+docker run -it mnist:latest
+'''
+
+Previous Assignment ==> 
 In the assignment the modified changes are as follows -
 1. Added Validation Set
 2. Storing and loading Models
