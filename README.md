@@ -5,14 +5,14 @@ Creating Docker Image -
 1. Create Docker file.
 2. Use build command. 
 
-'''
+```
 docker build --rm -f docker/Dockerfile . -t mnist:latest
-'''
+```
 3. Docker run for creating and running the container. 
 
-'''
+```
 docker run -it mnist:latest
-'''
+```
 
 Previous Assignment ==> 
 In the assignment the modified changes are as follows -
