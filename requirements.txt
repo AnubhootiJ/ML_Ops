@@ -2,3 +2,4 @@ pandas
 scikit-learn
 matplotlib
 scikit-image
+pytest == 6.2.5
