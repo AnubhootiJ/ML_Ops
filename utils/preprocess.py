@@ -7,11 +7,11 @@ def preprocess(data, res):
     data = data.reshape((n_samples, -1)) 
     return data
 
-def split_data(data, target, split):
+def split_data(data, target, split, tsplit):
     v_split = split[0]
     t_split = split[1]
     x_train, x_test, y_train, y_test = train_test_split(
-        data, target, test_size=t_split+v_split, shuffle=False)
+        data, target, train_size=1-tsplit, test_size=tsplit, shuffle=False)
 
     x_val, x_test, y_val, y_test = train_test_split(
         x_test,y_test, test_size=v_split/(t_split+v_split), shuffle=False)

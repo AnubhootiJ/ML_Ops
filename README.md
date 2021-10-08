@@ -1,15 +1,9 @@
 # ML_Ops
 =========================================
-Assignment - 6
-Testing 
+Quiz
 
-Steps to follow -
-1. Installation 
-```
-pip install pytest 
-```
 
-2. Create "tests" folder, write test functions (pytest will run all files of the form test*.py or *_test.py in the current directory and its subdirectories. )
+Done with all the 2 test cases as depicted in the original questions,
+Added bonus questions as well. The screenshot is attached below -
 
-3. Use python -m pytest to run the tests (Successfully ran for this assignment, screenshot attached below)
-![plot](tests.png)
+![plot](quiz.png)
