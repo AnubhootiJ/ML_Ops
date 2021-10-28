@@ -1,6 +1,9 @@
 # ML_Ops
 =========================================
 
-Add new model (Decision Tree)
+== Please check the "decisiontree.py" file
 
-![plot](results/quiz.png)
+Add new model (Decision Tree)
+Added different splits with Decision Tree and SVM with gamma 0.001
+
+![plot](results/Decision.png)
