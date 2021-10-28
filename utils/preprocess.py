@@ -15,6 +15,6 @@ def split_data(data, target, split, tsplit):
 
     x_val, x_test, y_val, y_test = train_test_split(
         x_test,y_test, test_size=v_split/(t_split+v_split), shuffle=False)
-    print("\nNumber of samples in train:val:test = {}:{}:{}".format(len(x_train), len(x_val), len(x_test)))
+    #print("\nNumber of samples in train:val:test = {}:{}:{}".format(len(x_train), len(x_val), len(x_test)))
 
     return x_train, y_train, x_test, y_test, x_val, y_val
