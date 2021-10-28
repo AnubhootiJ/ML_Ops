@@ -27,7 +27,7 @@ print("Now training...")
 #candidates = []
 i=1
 #fig = plt.figure()
-print("Model\t\tRes  Val:Test  Train Acc  Val Acc f1 Score")
+print("Val:Test  Dec Train Acc  Dec Val Acc Dec f1 Score SVM Train Acc SVM Val Acc SVM f1 Score")
 for res in resolution:
     data = preprocess(digits.images, res)
     for split in splits:
@@ -56,18 +56,18 @@ for res in resolution:
         #    print("Skipping gamma {} because of low validation accuracy".format(gamma))
         #    continue
 
-        print("Dec tree: {}, {} = {:.2f},\t {:.2f},\t {:.2f}".format(res, split, t_ac, val_ac, f1))
+        #print("Dec tree: {}, {} = {:.2f},\t {:.2f},\t {:.2f}".format(res, split, t_ac, val_ac, f1))
         
         clf = svm.SVC(gamma=0.001)
         clf.fit(x_train, y_train)
-        t_ac = clf.score(x_train, y_train)
-        val_ac = clf.score(x_val, y_val)
+        st_ac = clf.score(x_train, y_train)
+        sval_ac = clf.score(x_val, y_val)
         SVMvaccs.append(val_ac)
         SVMtaccs.append(t_ac)
         predicted = clf.predict(x_test)
-        f1 = metrics.f1_score(y_pred=predicted,y_true=y_test, average='macro')
+        sf1 = metrics.f1_score(y_pred=predicted,y_true=y_test, average='macro')
 
-        print("SVM with g=0.5: {}, {} = {:.2f},\t {:.2f},\t {:.2f}".format(res, split, t_ac, val_ac, f1))
+        print("{} = {:.2f},\t {:.2f},\t {:.2f},\t {:.2f},\t {:.2f},\t {:.2f}".format(split, t_ac, val_ac, f1, st_ac, sval_ac, sf1))
         
         """
         cand = {
