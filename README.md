@@ -7,5 +7,5 @@
 4. 18/9/21 - Assignment 4 (Working Branch - Assg-4) => Experimenting with hyperparamters 
 5. 24/9/21 - Getting started with Docker. Adding a DockerFile (Working Branch - features/docker)
 6. 1/10/21 - Assignment 6 => Pytest (feature/tests)
-7. 7/10/21 - Assignment 7 => Decision Tree
+7. 7/10/21 - Assignment 7 => Decision Tree (decision)
 8. 31/10/21 - Assignment 8 (flask)
