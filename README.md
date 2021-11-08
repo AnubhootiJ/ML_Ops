@@ -1,9 +1,14 @@
 # ML_Ops
 =========================================
 
-== Please check the "decisiontree.py" file
+== Please check the 'apis/hello.py' file 
 
-Add new model (Decision Tree)
-Added different splits with Decision Tree and SVM with gamma 0.001
+- Imported flask and flask_restx 
+- Created hello.py - hosting basic flask app
+- Use the following to run the app
 
-![plot](results/Decision.png)
+'''
+$env:FLASK_APP = "hello"
+'''
+
+![plot](results/Flask_App.png)
