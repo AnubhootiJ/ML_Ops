@@ -6,3 +6,5 @@
 3. 16/9/21 - Modularizing (Working Branch - modularize) => Also Assignment 5
 4. 18/9/21 - Assignment 4 (Working Branch - Assg-4) => Experimenting with hyperparamters 
 5. 24/9/21 - Getting started with Docker. Adding a DockerFile (Working Branch - features/docker)
+6.
+7. 31/10/21 - Assignment 7 (Flask)
