@@ -1,14 +1,7 @@
 # ML_Ops
 =========================================
 
-== Please check the 'apis/hello.py' file 
+== Please check the 'tests/test_quiz.py' and 'quiz_test_case.py' file 
+== Completed Both the questions (test cases for each class + bonus component)
 
-- Imported flask and flask_restx 
-- Created hello.py - hosting basic flask app
-- Use the following to run the app
-
-'''
-$env:FLASK_APP = "hello"
-'''
-
-![plot](results/Flask_App.png)
+![plot](results/final_quiz.png)

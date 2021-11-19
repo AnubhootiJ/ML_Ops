@@ -1,7 +1,7 @@
 pandas
-scikit-learn
-matplotlib
-scikit-image
-pytest == 6.2.5
-flask
+scikit-learn==0.24.2
+matplotlib==3.3.4
+scikit-image==0.17.2
+pytest==6.2.5
+flask==2.0.2
 flask_restx
