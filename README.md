@@ -9,3 +9,5 @@
 6. 1/10/21 - Assignment 6 => Pytest (feature/tests)
 7. 7/10/21 - Assignment 7 => Decision Tree (decision)
 8. 31/10/21 - Assignment 8 (flask)
+9. 18/11/21 - Assignment 9 (feature/serve_model)
+11. 19/11/21 - Quiz 3 (final_quiz)
