@@ -16,9 +16,6 @@ import numpy as np
 #from example.utils import load_model
 from joblib import load
 
-#curr = 'D:/IITJ/Semester-3/MLOps_HandsON/ML_Ops'
-#best_model_path = curr+'/models/tt_0.15_val_0.15_rescale_1_gamma_0.001/model.jobllb'
-#best_model_path = "D:\IITJ\Semester-3\MLOps_HandsON\ML_Ops\models\tt_0.15_val_0.15_rescale_1_gamma_0.001\model.joblib"
 best_model_path = "D:\IITJ\Semester-3\MLOps_HandsON\ML_Ops\models\model_0.01.joblib"
 
 app = Flask(__name__)
