@@ -1,25 +1,44 @@
 # ML_Ops
 =========================================
+# Assignment 11
+=========================================
 
-== Please check the 'apis/hello.py' file 
+== Please check the 'assg_11.py' and 'assg_11_plot.py' file 
 
-- Imported flask and flask_restx 
-- Created hello.py - hosting basic flask app
-- Use the following to run the app
+## SVM Statistics - Confusion Matrix 
+<p float="left">
+  <img src="results/svm_cm/10.jpg" width="50" />
+  <img src="results/svm_cm/20.jpg" width="50" /> 
+  <img src="results/svm_cm/30.jpg" width="50" /> 
+  <img src="results/svm_cm/40.jpg" width="50" /> 
+  <img src="results/svm_cm/50.jpg" width="50" /> 
+</p>
 
-```
-$env:FLASK_APP = "apis/hello"
-flask run
-```
+<p float="left">
+  <img src="results/svm_cm/60.jpg" width="50" />
+  <img src="results/svm_cm/70.jpg" width="50" /> 
+  <img src="results/svm_cm/80.jpg" width="50" /> 
+  <img src="results/svm_cm/90.jpg" width="50" /> 
+  <img src="results/svm_cm/100.jpg" width="50" /> 
+</p>
 
-The image below shows the model being served and the prediction we are getting using cURL command. cURL command used is as follows -
+![plot](results/SVM_Output.jpg)
 
-```
-curl http://127.0.0.1:5000/predict -X POST -H "Content-Type: application/json" -d "{\"image\": [\"0.0\",\"0.0\",\"0.0\",\"11.999999999999982\",\"13.000000000000004\",\"5.000000000000021\",\"8.881784197001265e-15\",\"0.0\",\"0.0\",\"0.0\",\"0.0\",\"10.999999999999986\",\"15.999999999999988\",\"9.000000000000005\",\"1.598721155460224e-14\",\"0.0\",\"0.0\",\"0.0\",\"2.9999999999999925\",\"14.999999999999979\",\"15.999999999999998\",\"6.000000000000022\",\"1.0658141036401509e-14\",\"0.0\",\"6.217248937900871e-15\",\"6.999999999999987\",\"14.99999999999998\",\"15.999999999999996\",\"16.0\",\"2.0000000000000284\",\"3.552713678800507e-15\",\"0.0\",\"5.5220263365470826e-30\",\"6.21724893790087e-15\",\"1.0000000000000113\",\"15.99999999999998\",\"16.0\",\"3.000000000000022\",\"5.32907051820075e-15\",\"0.0\",\"0.0\",\"0.0\",\"0.9999999999999989\",\"15.99999999999998\",\"16.0\",\"6.000000000000015\",\"1.0658141036401498e-14\",\"0.0\",\"0.0\",\"0.0\",\"0.9999999999999989\",\"15.99999999999998\",\"16.0\",\"6.000000000000018\",\"1.0658141036401503e-14\",\"0.0\",\"0.0\",\"0.0\",\"0.0\",\"10.999999999999986\",\"15.999999999999993\",\"10.00000000000001\",\"1.7763568394002505e-14\",\"0.0\"]}"
-```
+## DT Statistics - Confusion Matrix 
+<p float="left">
+  <img src="results/dec_cm/10.jpg" width="50" />
+  <img src="results/dec_cm/20.jpg" width="50" /> 
+  <img src="results/dec_cm/30.jpg" width="50" /> 
+  <img src="results/dec_cm/40.jpg" width="50" /> 
+  <img src="results/dec_cm/50.jpg" width="50" /> 
+</p>
 
-![plot](results/serve_model.png)
-![plot](results/curl.png)
+<p float="left">
+  <img src="results/dec_cm/60.jpg" width="50" />
+  <img src="results/dec_cm/70.jpg" width="50" /> 
+  <img src="results/dec_cm/80.jpg" width="50" /> 
+  <img src="results/dec_cm/90.jpg" width="50" /> 
+  <img src="results/dec_cm/100.jpg" width="50" /> 
+</p>
 
-Model Serving - wrapper over our model to be able to get predictions real-time. 
-Task - Serve model using Flask
+![plot](results/DT_Output.jpg)
