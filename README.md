@@ -7,9 +7,9 @@
 
 ## SVM Statistics - Confusion Matrix 
 <p float="left">
-  <img src="results/svm_cm/10.jpg" width="300" />
-  <img src="results/svm_cm/20.jpg" width="300" /> 
-  <img src="results/svm_cm/30.jpg" width="300" /> 
+  <img src="results/svm_cm/10.jpg" width="350" />
+  <img src="results/svm_cm/20.jpg" width="350" /> 
+  <img src="results/svm_cm/30.jpg" width="350" /> 
 </p>
 
 <p float="left">
