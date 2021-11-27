@@ -1,57 +1,17 @@
 # ML_Ops
 =========================================
-# Assignment 11
+# Final Examination
 =========================================
 
-== Please check the 'assg_11.py' and 'assg_11_plot.py' file 
+== Please check the 'final_exam.py' file
 
-## SVM Statistics - Confusion Matrix 
-<p float="left">
-  <img src="results/svm_cm/10.jpg" width="200" />
-  <img src="results/svm_cm/20.jpg" width="200" /> 
-  <img src="results/svm_cm/30.jpg" width="200" /> 
-</p>
+-- As per the question, there are 3 runs for different combination of 2 hyperparameters - gamma and C in SVM setting. 
+-- For all 3 runs, I compute the mean accuracy. 
+-- For all over results with observations, I print the table in console and have also preapared a csv file with all the values.
+-- To view the CSV file, please check 'Final_Table.csv'
+-- For observation column, a generalized view is taken on the mean accuracy as it accounts for overfitting paramter wherein training accuracy is almost 100% but testing and validation accuracy decreases. Such combinations are marked as Bas Hyperparameters as can be viewed in the figure below. 
 
-<p float="left">
-  <img src="results/svm_cm/40.jpg" width="200" />
-  <img src="results/svm_cm/50.jpg" width="200" /> 
-  <img src="results/svm_cm/60.jpg" width="200" /> 
-</p>
-  
-<p float="left">
-  <img src="results/svm_cm/70.jpg" width="200" />
-  <img src="results/svm_cm/80.jpg" width="200" /> 
-  <img src="results/svm_cm/90.jpg" width="200" /> 
-</p>
-
-<p float="left">
-  <img src="results/svm_cm/100.jpg" width="200" />
-</p>
+![plot](table.png)
 
 
-![plot](results/SVM_Output.jpg)
 
-## DT Statistics - Confusion Matrix 
-<p float="left">
-  <img src="results/dec_cm/10.jpg" width="200" />
-  <img src="results/dec_cm/20.jpg" width="200" /> 
-  <img src="results/dec_cm/30.jpg" width="200" /> 
-</p>
-
-<p float="left">
-  <img src="results/dec_cm/40.jpg" width="200" />
-  <img src="results/dec_cm/50.jpg" width="200" /> 
-  <img src="results/dec_cm/60.jpg" width="200" /> 
-</p>
-  
-<p float="left">
-  <img src="results/dec_cm/70.jpg" width="200" />
-  <img src="results/dec_cm/80.jpg" width="200" /> 
-  <img src="results/dec_cm/90.jpg" width="200" /> 
-</p>
-
-<p float="left">
-  <img src="results/dec_cm/100.jpg" width="200" />
-</p>
-
-![plot](results/DT_Output.jpg)
