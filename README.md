@@ -19,6 +19,8 @@
 
 -- For observation column, a generalized view is taken on the mean accuracy as it accounts for overfitting paramter wherein training accuracy is almost 100% but testing and validation accuracy decreases. Such combinations are marked as Bas Hyperparameters as can be viewed in the figure below. 
 
+-- I have made manual observations also in the CSV file
+
 ![plot](table.png)
 
 
