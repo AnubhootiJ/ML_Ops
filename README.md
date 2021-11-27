@@ -1,4 +1,5 @@
 # ML_Ops
+<<<<<<< HEAD
 =========================================
 # Final Examination
 =========================================
@@ -37,4 +38,5 @@ docker run -it mnist:latest -v D:/IITJ/Semester-3/MLOps_HandsON/ML_Ops/Model:/ex
 
 I have attached the screenshot for both the files below and have not completed the Github actions part-
 ![plot](bonus.png)
+
 
