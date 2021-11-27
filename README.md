@@ -3,6 +3,9 @@
 # Final Examination
 =========================================
 
+
+# Question 1 
+=========================================
 == Please check the 'final_exam.py' file
 
 -- As per the question, there are 3 runs for different combination of 2 hyperparameters - gamma and C in SVM setting. 
@@ -14,4 +17,24 @@
 ![plot](table.png)
 
 
+# Question 2 (Docker)
+=========================================
+== Please check the 'docker.py' file and 'docker/Dockerfile' file
+
+I have used the following command to build the docker image -
+```
+docker build --rm -f docker/Dockerfile . -t mnist:latest
+```
+To create the container I have used -
+```
+docker run -it mnist:latest -v D:/IITJ/Semester-3/MLOps_HandsON/ML_Ops/Model:/exp
+```
+![plot](dock.png)
+
+# Question 3 (Bonus)
+=========================================
+== For MLPClassifier, please check 'bonus.py' and 'tests/test_mlp.py'
+
+I have attached the screenshot for both the files below and have not completed the Github actions part-
+![plot](bonus.png)
 
